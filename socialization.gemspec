@@ -3,13 +3,13 @@ $:.push File.expand_path("../lib", __FILE__)
 require "socialization/version"
 
 Gem::Specification.new do |s|
-  s.name = "socialization"
-  s.version = Socialization::VERSION
-  s.authors = ["Carl Mercier"]
-  s.email = "carl@carlmercier.com"
-  s.homepage = "https://github.com/cmer/socialization"
+  s.name = "twrk-socialization"
+  s.version = "0.0.1"
+  s.authors = ["twrk"]
+  s.email = "twrkitrealgood@gmail.com"
+  s.homepage = "https://github.com/twrk/socialization"
   s.summary = "Easily socialize your app with Likes and Follows"
-  s.description = "Socialization allows any model to Follow and/or Like any other model. This is accomplished through a double polymorphic relationship on the Follow and Like models. But you don't need to know that since all the complexity is hidden from you."
+  s.description = "A modification of the smer/socialization plugin; currently not being maintained by original authorr. Allows any model to Follow and/or Like any other model. This is accomplished through a double polymorphic relationship on the Follow and Like models. But you don't need to know that since all the complexity is hidden from you."
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
