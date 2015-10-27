@@ -4,7 +4,7 @@ require "socialization/version"
 
 Gem::Specification.new do |s|
   s.name = "twrk-socialization"
-  s.version = "0.0.1"
+  s.version = "1.2.0"
   s.authors = ["twrk"]
   s.email = "twrkitrealgood@gmail.com"
   s.homepage = "https://github.com/twrk/socialization"
